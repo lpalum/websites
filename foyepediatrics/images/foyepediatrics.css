@@ -1,0 +1,159 @@
+/* foyepediactrics.com style sheet */
+
+/* selector {property: value} 
+font: italic small-caps 900 12px arial
+*/
+	
+.black  {color:	#000000}
+.gray	{color: #808080}
+.purple {color:	#5160ac}
+.teal	{color: #19b273}
+
+html, body {
+height: 100%;
+background-color : #5160ac;
+margin: 0px;
+padding: 0px;
+text-align:center;
+}
+
+#tealborder {
+  border-left:solid;
+  border-left-color: #19b273;
+  border-right:solid;
+  border-right-color: #19b273;  
+  border-top: solid;
+  border-top-color: #19b273;
+  border-bottom: solid;
+  border-bottom-color: #19b273;
+}
+
+a:link {
+color: #8080c0;
+text-decoration: underline;
+}
+
+a:vlink {
+color: #18c080;
+text-decoration: underline;
+}
+
+a:alink {
+color: #8080c0;
+text-decoration: underline;
+}
+
+
+font.teal {
+font: 900 48px times;
+color: #19b273;
+}
+
+p.spacing {
+margin-top: -5px;
+margin-bottom: -10px
+}
+
+p.name {
+  font: bold 24px times;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.teal {
+font: 900 20px times;
+color: #19b273;
+}
+p.orange {
+font: 900 20px times;
+color: #FF3F00;
+}
+p.violet {
+font: 900 20px times;
+color: #7F00FF;
+}
+p.blue {
+font: 900 20px times;
+color: #5160ac;
+}
+p.purple {
+font: 900 20px times;
+color: #800080;
+}
+
+
+p.tagline {
+font: italic 900 12px arial;
+color: #8080c0;
+}
+
+p.hometext {
+font: 22px times;
+color: #000000;
+text-align: justify;
+line-height : 30px;
+}
+
+p.philtext {
+font: 18px times;
+color: #000000;
+line-height : 35px;
+}
+
+p.bodytext {
+font: 16px arial;
+color: #000000;
+}
+
+p.footertext {
+font: 12px arial;
+color: #000000;
+margin-top: -5px;
+margin-bottom: 15px
+}
+
+div.centered {
+	width:800px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;  
+}
+#header {
+  border-left:solid;
+  border-left-color: #19b273;
+  border-right:solid;
+  border-right-color: #19b273;  
+  border-top: solid;
+  border-top-color: #19b273;
+  background: #ffffff;
+  width: 760px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+#content {
+  border-left:solid;
+  border-left-color: #19b273;
+  border-right:solid;
+  border-right-color: #19b273;  
+  background: #ffffff;
+  width: 760px;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+}
+#footer {
+  border-left:solid;
+  border-left-color: #19b273;
+  border-right:solid;
+  border-right-color: #19b273;  
+  border-bottom: solid;
+  border-bottom-color: #19b273;
+  background: #ffffff;
+  width: 760px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+}
